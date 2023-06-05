@@ -1,0 +1,33 @@
+<html>
+<head>
+</head>
+<body>
+<table>
+<style> table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+</style>
+<tr>
+<th>Name</th>
+<th>ID</th>
+<th>CG</th>
+</tr>
+<tr>
+<td> Apurbo</td>
+<td> 20-42665-1</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td> Sakib</td>
+<td> 20-42525-1</td>
+<td>3.6</td>
+</tr>
+<tr>
+<td> Jack </td>
+<td> 10-42665-1 </td>
+<td>3.5</td>
+</tr>
+
+</table>
+</body>
+</html>
