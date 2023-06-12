@@ -1,0 +1,24 @@
+<students>
+  <student>
+    <sl_no>23</sl_no>
+    <name>John Carter</name>
+    <admission_date>25/12/2015</admission_date>
+  </student>
+  <student>
+    <sl_no>29</sl_no>
+    <name>Bob Marshal</name>
+    <admission_date>13/01/1999</admission_date>
+  </student>
+  <student>
+    <sl_no>35</sl_no>
+    <name>Clark Kent</name>
+    <admission_date>17/06/2005</admission_date>
+  </student>
+</students>
+In this XML document, the <students> tag represents the root element, and each student is enclosed within a <student> element. Within each <student> element, we have the respective tags `<sl_no>
+
+
+
+
+
+
