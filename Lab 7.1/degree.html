@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Degree Selection Page</title>
+    
+    <script src="degree.js"></script>
+</head>
+<body>
+    <h1>Select Your Degree</h1>
+    <form id="degreeForm" onsubmit="return validateDegree()">
+        <div class="degree-box">
+            <label><input type="radio" name="degree" value="SSC"> SSC</label>
+            <label><input type="radio" name="degree" value="HSC"> HSC</label>
+            <label><input type="radio" name="degree" value="BSC"> BSC</label><br>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

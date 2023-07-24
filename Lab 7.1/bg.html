@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blood Group Selection Page</title>
+    <script src="bg.js"></script>
+</head>
+<body>
+    <h1>Select Your Blood Group</h1>
+    <div>
+        <button id="expandButton" onclick="toggleOptions()">Select Blood Group</button>
+        <div id="options" style="display: none;">
+            <label><input type="radio" name="bloodGroup" value="A+"> A+</label>
+            <label><input type="radio" name="bloodGroup" value="A-"> A-</label>
+            <label><input type="radio" name="bloodGroup" value="B+"> B+</label>
+            <label><input type="radio" name="bloodGroup" value="B-"> B-</label>
+            <label><input type="radio" name="bloodGroup" value="O+"> O+</label>
+            <label><input type="radio" name="bloodGroup" value="O-"> O-</label>
+            <label><input type="radio" name="bloodGroup" value="AB+"> AB+</label>
+            <label><input type="radio" name="bloodGroup" value="AB-"> AB-</label>
+        </div>
+    </div>
+    <input type="submit" value="Submit" onclick="validateBloodGroup()">
+</body>
+</html>
