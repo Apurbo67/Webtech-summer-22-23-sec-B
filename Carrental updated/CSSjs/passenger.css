@@ -1,0 +1,42 @@
+/* payment.css */
+
+body {
+    background-color: #E6E6FA; /* Light purple background color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.center-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #008080; /* Teal color for h1 */
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff; /* White button background color */
+    color: #000; /* Black button text color */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc; /* Light gray button background on hover */
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
